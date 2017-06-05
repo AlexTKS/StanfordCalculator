@@ -21,9 +21,9 @@
 		FA52C7E51EE5A42800E4FD39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA52C7E81EE5A42800E4FD39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA52C7EB1EE5A42800E4FD39 /* StanfordCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StanfordCalculator.xcdatamodel; sourceTree = "<group>"; };
-		FA52C7ED1EE5A42800E4FD39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA52C7ED1EE5A42800E4FD39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = StanfordCalculator/Assets.xcassets; sourceTree = "<group>"; };
 		FA52C7F01EE5A42800E4FD39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FA52C7F21EE5A42800E4FD39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA52C7F21EE5A42800E4FD39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = StanfordCalculator/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,24 @@
 		FA52C7E21EE5A42700E4FD39 /* StanfordCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				FA52C7F81EE5A55900E4FD39 /* Support files */,
 				FA52C7E31EE5A42800E4FD39 /* AppDelegate.swift */,
 				FA52C7E51EE5A42800E4FD39 /* ViewController.swift */,
 				FA52C7E71EE5A42800E4FD39 /* Main.storyboard */,
+			);
+			path = StanfordCalculator;
+			sourceTree = "<group>";
+		};
+		FA52C7F81EE5A55900E4FD39 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
 				FA52C7ED1EE5A42800E4FD39 /* Assets.xcassets */,
 				FA52C7EF1EE5A42800E4FD39 /* LaunchScreen.storyboard */,
 				FA52C7F21EE5A42800E4FD39 /* Info.plist */,
 				FA52C7EA1EE5A42800E4FD39 /* StanfordCalculator.xcdatamodeld */,
 			);
-			path = StanfordCalculator;
+			name = "Support files";
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +172,7 @@
 				FA52C7F01EE5A42800E4FD39 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = StanfordCalculator;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -316,7 +326,8 @@
 				FA52C7EB1EE5A42800E4FD39 /* StanfordCalculator.xcdatamodel */,
 			);
 			currentVersion = FA52C7EB1EE5A42800E4FD39 /* StanfordCalculator.xcdatamodel */;
-			path = StanfordCalculator.xcdatamodeld;
+			name = StanfordCalculator.xcdatamodeld;
+			path = StanfordCalculator/StanfordCalculator.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
